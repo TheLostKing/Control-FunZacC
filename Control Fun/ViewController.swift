@@ -76,7 +76,7 @@ class ViewController: UIViewController {
                                                                          style: .cancel, handler: nil)
                                         controller2.addAction(cancelAction)
                                         self.present(controller2, animated: true,
-                                                                   completion: nil)
+                                                                   completion: nil) 
         })
         
         let noAction = UIAlertAction(title: "No way!",
